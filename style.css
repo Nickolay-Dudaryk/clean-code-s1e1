@@ -34,8 +34,12 @@
   display: inline-block;
   flex-grow: 1;
 }
+#add-task {
+  margin-top: 16px;
+}
 .task-row-wrapper {
   display: flex;
+  margin: 20px 0 16px;
 }
 ul {
   margin: 0;
@@ -96,7 +100,7 @@ label[for="new-task"] {
 #new-task {
   width: 318px;
 }
-p > .btn:hover {
+#add-task .btn:hover {
   color: #0fc57c;
 }
 
